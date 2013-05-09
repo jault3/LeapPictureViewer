@@ -13,7 +13,31 @@
 		D7612B2A16E8FEF60069B9C3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D7612B2816E8FEF60069B9C3 /* Credits.rtf */; };
 		D7612B2D16E8FEF60069B9C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7612B2C16E8FEF60069B9C3 /* AppDelegate.m */; };
 		D7612B3016E8FEF60069B9C3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7612B2E16E8FEF60069B9C3 /* MainMenu.xib */; };
+		D7612B3816E900590069B9C3 /* LeapMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D7612B3716E900590069B9C3 /* LeapMenu.m */; };
+		D7612B3B16E909A60069B9C3 /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7612B3A16E909A60069B9C3 /* AboutWindow.xib */; };
+		D781D33A16E981130061F8C6 /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = D781D33516E981130061F8C6 /* LeapObjectiveC.mm */; };
+		D781D34116E985140061F8C6 /* Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = D781D33E16E985140061F8C6 /* Gesture.m */; };
+		D781D34216E985140061F8C6 /* GestureListener.m in Sources */ = {isa = PBXBuildFile; fileRef = D781D34016E985140061F8C6 /* GestureListener.m */; };
+		D781D34416E9853C0061F8C6 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D781D34316E9853B0061F8C6 /* EventKit.framework */; };
+		D781D34D16E9863E0061F8C6 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D781D34B16E9863E0061F8C6 /* libLeap.dylib */; };
+		D781D34E16E9863E0061F8C6 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D781D34C16E9863E0061F8C6 /* libLeap.dylib */; };
+		D781D35616E98A4E0061F8C6 /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D781D34C16E9863E0061F8C6 /* libLeap.dylib */; };
+		D781D35B16E98C4C0061F8C6 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = D781D35A16E98C4C0061F8C6 /* Album.m */; };
+		D794DEBF16E945B800FFCA3C /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D794DEBE16E945B800FFCA3C /* MainWindow.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D781D35516E98A470061F8C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				D781D35616E98A4E0061F8C6 /* libLeap.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D7612B1616E8FEF60069B9C3 /* Leap Picture Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leap Picture Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +53,24 @@
 		D7612B2B16E8FEF60069B9C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7612B2C16E8FEF60069B9C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D7612B2F16E8FEF60069B9C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D7612B3616E900590069B9C3 /* LeapMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapMenu.h; sourceTree = "<group>"; };
+		D7612B3716E900590069B9C3 /* LeapMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeapMenu.m; sourceTree = "<group>"; };
+		D7612B3A16E909A60069B9C3 /* AboutWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutWindow.xib; sourceTree = "<group>"; };
+		D781D33116E981130061F8C6 /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
+		D781D33316E981130061F8C6 /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapMath.h; sourceTree = "<group>"; };
+		D781D33416E981130061F8C6 /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapObjectiveC.h; sourceTree = "<group>"; };
+		D781D33516E981130061F8C6 /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LeapObjectiveC.mm; sourceTree = "<group>"; };
+		D781D33D16E985140061F8C6 /* Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gesture.h; path = "Leap Picture Viewer/Gesture.h"; sourceTree = "<group>"; };
+		D781D33E16E985140061F8C6 /* Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gesture.m; path = "Leap Picture Viewer/Gesture.m"; sourceTree = "<group>"; };
+		D781D33F16E985140061F8C6 /* GestureListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestureListener.h; path = "Leap Picture Viewer/GestureListener.h"; sourceTree = "<group>"; };
+		D781D34016E985140061F8C6 /* GestureListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GestureListener.m; path = "Leap Picture Viewer/GestureListener.m"; sourceTree = "<group>"; };
+		D781D34316E9853B0061F8C6 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		D781D34B16E9863E0061F8C6 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libLeap.dylib; sourceTree = "<group>"; };
+		D781D34C16E9863E0061F8C6 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libLeap.dylib; sourceTree = "<group>"; };
+		D781D35916E98C4C0061F8C6 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		D781D35A16E98C4C0061F8C6 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		D794DEBD16E945B800FFCA3C /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		D794DEBE16E945B800FFCA3C /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D781D34416E9853C0061F8C6 /* EventKit.framework in Frameworks */,
 				D7612B1A16E8FEF60069B9C3 /* Cocoa.framework in Frameworks */,
+				D781D34D16E9863E0061F8C6 /* libLeap.dylib in Frameworks */,
+				D781D34E16E9863E0061F8C6 /* libLeap.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +91,12 @@
 		D7612B0D16E8FEF60069B9C3 = {
 			isa = PBXGroup;
 			children = (
+				D781D33D16E985140061F8C6 /* Gesture.h */,
+				D781D33E16E985140061F8C6 /* Gesture.m */,
+				D781D33F16E985140061F8C6 /* GestureListener.h */,
+				D781D34016E985140061F8C6 /* GestureListener.m */,
 				D7612B1F16E8FEF60069B9C3 /* Leap Picture Viewer */,
+				D781D33016E981130061F8C6 /* include */,
 				D7612B1816E8FEF60069B9C3 /* Frameworks */,
 				D7612B1716E8FEF60069B9C3 /* Products */,
 			);
@@ -63,6 +113,8 @@
 		D7612B1816E8FEF60069B9C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D781D34816E9863E0061F8C6 /* lib */,
+				D781D34316E9853B0061F8C6 /* EventKit.framework */,
 				D7612B1916E8FEF60069B9C3 /* Cocoa.framework */,
 				D7612B1B16E8FEF60069B9C3 /* Other Frameworks */,
 			);
@@ -82,10 +134,16 @@
 		D7612B1F16E8FEF60069B9C3 /* Leap Picture Viewer */ = {
 			isa = PBXGroup;
 			children = (
+				D781D35816E98C420061F8C6 /* Models */,
+				D7612B3916E909890069B9C3 /* xib */,
 				D7612B2B16E8FEF60069B9C3 /* AppDelegate.h */,
 				D7612B2C16E8FEF60069B9C3 /* AppDelegate.m */,
 				D7612B2E16E8FEF60069B9C3 /* MainMenu.xib */,
+				D794DEBD16E945B800FFCA3C /* MainWindow.h */,
+				D794DEBE16E945B800FFCA3C /* MainWindow.m */,
 				D7612B2016E8FEF60069B9C3 /* Supporting Files */,
+				D7612B3616E900590069B9C3 /* LeapMenu.h */,
+				D7612B3716E900590069B9C3 /* LeapMenu.m */,
 			);
 			path = "Leap Picture Viewer";
 			sourceTree = "<group>";
@@ -102,6 +160,61 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D7612B3916E909890069B9C3 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				D7612B3A16E909A60069B9C3 /* AboutWindow.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		D781D33016E981130061F8C6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D781D33116E981130061F8C6 /* Leap.h */,
+				D781D33316E981130061F8C6 /* LeapMath.h */,
+				D781D33416E981130061F8C6 /* LeapObjectiveC.h */,
+				D781D33516E981130061F8C6 /* LeapObjectiveC.mm */,
+			);
+			name = include;
+			path = "Leap Picture Viewer/include";
+			sourceTree = "<group>";
+		};
+		D781D34816E9863E0061F8C6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D781D34916E9863E0061F8C6 /* leap */,
+			);
+			name = lib;
+			path = "Leap Picture Viewer/lib";
+			sourceTree = "<group>";
+		};
+		D781D34916E9863E0061F8C6 /* leap */ = {
+			isa = PBXGroup;
+			children = (
+				D781D34A16E9863E0061F8C6 /* libc++ */,
+				D781D34C16E9863E0061F8C6 /* libLeap.dylib */,
+			);
+			path = leap;
+			sourceTree = "<group>";
+		};
+		D781D34A16E9863E0061F8C6 /* libc++ */ = {
+			isa = PBXGroup;
+			children = (
+				D781D34B16E9863E0061F8C6 /* libLeap.dylib */,
+			);
+			path = "libc++";
+			sourceTree = "<group>";
+		};
+		D781D35816E98C420061F8C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D781D35916E98C4C0061F8C6 /* Album.h */,
+				D781D35A16E98C4C0061F8C6 /* Album.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +225,7 @@
 				D7612B1216E8FEF60069B9C3 /* Sources */,
 				D7612B1316E8FEF60069B9C3 /* Frameworks */,
 				D7612B1416E8FEF60069B9C3 /* Resources */,
+				D781D35516E98A470061F8C6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -156,6 +270,7 @@
 				D7612B2416E8FEF60069B9C3 /* InfoPlist.strings in Resources */,
 				D7612B2A16E8FEF60069B9C3 /* Credits.rtf in Resources */,
 				D7612B3016E8FEF60069B9C3 /* MainMenu.xib in Resources */,
+				D7612B3B16E909A60069B9C3 /* AboutWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +283,12 @@
 			files = (
 				D7612B2616E8FEF60069B9C3 /* main.m in Sources */,
 				D7612B2D16E8FEF60069B9C3 /* AppDelegate.m in Sources */,
+				D7612B3816E900590069B9C3 /* LeapMenu.m in Sources */,
+				D794DEBF16E945B800FFCA3C /* MainWindow.m in Sources */,
+				D781D33A16E981130061F8C6 /* LeapObjectiveC.mm in Sources */,
+				D781D34116E985140061F8C6 /* Gesture.m in Sources */,
+				D781D34216E985140061F8C6 /* GestureListener.m in Sources */,
+				D781D35B16E98C4C0061F8C6 /* Album.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +384,18 @@
 		D7612B3416E8FEF60069B9C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Leap Picture Viewer/Leap Picture Viewer-Prefix.pch";
 				INFOPLIST_FILE = "Leap Picture Viewer/Leap Picture Viewer-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Leap Picture Viewer/libc++\"",
+					"\"$(SRCROOT)/Leap Picture Viewer\"",
+					"\"$(SRCROOT)/Leap Picture Viewer/lib/leap/libc++\"",
+					"\"$(SRCROOT)/Leap Picture Viewer/lib/leap\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,10 +404,18 @@
 		D7612B3516E8FEF60069B9C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Leap Picture Viewer/Leap Picture Viewer-Prefix.pch";
 				INFOPLIST_FILE = "Leap Picture Viewer/Leap Picture Viewer-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Leap Picture Viewer/libc++\"",
+					"\"$(SRCROOT)/Leap Picture Viewer\"",
+					"\"$(SRCROOT)/Leap Picture Viewer/lib/leap/libc++\"",
+					"\"$(SRCROOT)/Leap Picture Viewer/lib/leap\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -303,6 +440,7 @@
 				D7612B3516E8FEF60069B9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

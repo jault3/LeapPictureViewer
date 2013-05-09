@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "LeapMenu.h"
+
+@interface AppDelegate ()
+
+@end
 
 @implementation AppDelegate
 

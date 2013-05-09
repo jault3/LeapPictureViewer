@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  LeapMenu.h
 //  Leap Picture Viewer
 //
 //  Created by dev on 3/7/13.
@@ -8,8 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate, NSMenuDelegate>
-
-@property (assign) IBOutlet NSWindow *window;
+@interface LeapMenu : NSMenu
+- (IBAction)showAbout:(id)sender;
 
 @end
